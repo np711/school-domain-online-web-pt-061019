@@ -13,3 +13,10 @@ class School
     @roster[grade] << name 
   end 
   
+  def grade(grade)
+    @roster[grade]
+    
+  end 
+  
+  def sort 
+    @roster.each do |key, value|
