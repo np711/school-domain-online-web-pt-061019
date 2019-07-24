@@ -15,23 +15,20 @@ class School
   end 
   
   def grade(level)
-    @roster[grade]
-    
+    roster.detect do |x, y|
+      if x == level 
+        return y 
+      end 
+    end 
   end 
   
   def sort 
-    @roster.each do |key, value|
-      value.sort!
-      
+    nu_hash = {}
+    @roster.each do |x, y|
+      nu_hash[x] = y.sort 
+    end 
+    nu_hash
     end 
     
   end 
-      describe '#grade' do
-        + it 'is able to retrieve students from a grade' do 
-          @school.add_student("AC Slater", 9)
-          @school.add_student("Kelly Kapowski", 10)
-          @school.add_student("Screech", 11)
-    end
-  end 
-
-        
+    
