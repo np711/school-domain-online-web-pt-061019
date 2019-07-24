@@ -30,5 +30,7 @@ class School
           @school.add_student("Homer Simpson", 9)
           @school.add_student("Avi Flombaum", 10)
           @school.add_student("Jeff Baird", 10)
-    
+    end
+  end 
+end 
         
