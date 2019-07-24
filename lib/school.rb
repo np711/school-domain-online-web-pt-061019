@@ -27,10 +27,10 @@ class School
   end 
       describe '#grade' do
         + it 'is able to retrieve students from a grade' do 
-          @school.add_student("Homer Simpson", 9)
-          @school.add_student("Avi Flombaum", 10)
-          @school.add_student("Jeff Baird", 10)
+          @school.add_student("AC Slater", 9)
+          @school.add_student("Kelly Kapowski", 10)
+          @school.add_student("Screech", 11)
     end
   end 
-end 
+
         
