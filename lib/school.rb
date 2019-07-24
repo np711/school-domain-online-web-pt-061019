@@ -25,4 +25,5 @@ class School
     end 
     
   end 
-      
+      describe '#grade' do
+        
