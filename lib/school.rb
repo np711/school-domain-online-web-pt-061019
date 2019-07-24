@@ -6,13 +6,9 @@ class School
     @roster = {}
   end 
   
-  def roster
-    @roster
-  end 
-  
   def add_student(student, level)
-    @roster[grade] ||= []
-    @roster[grade] << student 
+    roster[grade] ||= []
+    roster[grade] << student 
   end 
   
   def grade(level)
@@ -20,7 +16,8 @@ class School
       if x == level 
         return y 
       end 
-  end 
+  end
+end
   
   def sort 
     nu_hash = {}
