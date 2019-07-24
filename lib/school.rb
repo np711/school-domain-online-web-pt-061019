@@ -26,4 +26,7 @@ class School
     
   end 
       describe '#grade' do
+        + it 'is able to retrieve students from a grade' do 
+          @student.add_student("Homer Simpson", 9)
+          @student.add_student("avi")
         
